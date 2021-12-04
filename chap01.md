@@ -1,7 +1,29 @@
 
 ## センサを活用したIoTアプリケーション開発技術
-# obniz入門
-# はじめに
+
+#  目次
+#### 第１章　obniz入門
+- [はじめに](#はじめに)
+
+#### 第２章　obniz のプログラミング
+- 2-1 [開発環境への接続（コードエディタ）](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap02_1.md)
+- 2-2 [obnizのユーザアカウントの作成](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap02_2.md)
+- 2-3 [obnizに実装されている電子部品](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap02_3.md)
+- 2-4 [電子部品（センサ等）の接続](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap02_4.md)
+ - 2-4-1 [◎二つの電子部品を連携させたプログラミング](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap02_4.md)
+ - 2-4-2 [◎自作センサ回路部品のプログラミング](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap02_6.md)
+
+#### 第３章　Webサービスとの連携
+- 3-1 [Ambient（IoTデータの可視化サービス）](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap03_1.md)
+- 3-2 [IFTTT（イフト）](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap03_2.md)
+- 3-3 [Machinist（マシニスト）](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap03_3.md)
+- 3-4 [Firebase（バックエンド提供サービス）](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap03_0.md)
+- **** [obnizのサーバーレスイベント](https://github.com/TechnoIR63/seminar-obniz/blob/main/chap03_0.md)
+
+---
+
+## 第１章　obniz入門
+## はじめに
 obnizは，オブナイズと読みます．[公式サイトの会社概要](https://obniz.io/ja/jobs)
 を参照するとobniz（object + nize）とあり「現実に身の回りに存在するものをどんなに離れていてもどの種類のプログラムからでも "Object" として操作可能にすることが目標です」とあります．
 <br>
@@ -58,9 +80,10 @@ A B CD E F G H I J K L M N O P Q R S T U V W X Y Z <br>
   - SSIDの値
   - パスワードの入力
 3. プログラムの実行
-  - パソコン（PC）を使用しますので開発者コンソールの[プログラムエディタ](http://obniz.com/ja/console/program)を開きます．obnizIDを求められますのでBoardのディスプレイに表示されている８桁の数字を入力します．
+  - パソコン（PC）を使用しますので，開発者コンソールの[プログラムエディタ](http://obniz.com/ja/console/program)を開きます．obnizIDを求められますのでBoardのディスプレイに表示されている８桁の数字を入力します．
 
-  これで，接続設定は終了です．
+  これで，obnizBoardの接続設定は終了です．<br>
+<div align="right">（obnizのプログラミング）</div>
   <div align="right">
       <a href="https://github.com/TechnoIR63/seminar-obniz/blob/main/chap02_1.md"><img src="./images/navigation_next.png" width="15%"></a>
   </div>
